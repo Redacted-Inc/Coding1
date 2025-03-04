@@ -141,3 +141,14 @@ int main() {
 //if(i + 1 == gameCount) Then name not found to find the end of a list
 
 //getline(cin, input); Lets you get an input with spaces in it
+
+
+
+//favGames[gameCount++] = input;	is more effecient than
+
+//favGames[gameCount] = input;
+//gameCount += 1;
+
+
+
+//if (i + 1 == gameCount) allows to have the spelling check inside the for loop instead of a while loop around it
