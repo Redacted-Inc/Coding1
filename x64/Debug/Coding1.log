@@ -1,3 +1,5 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Coding1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  FavGame.cpp
+  Adventure2.cpp
+C:\Users\brenn\Github\coding1\Coding1\Adventure2.cpp(77,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  LINK : C:\Users\brenn\Github\coding1\Coding1\x64\Debug\adventure1.exe not found or not built by the last incremental link; performing full link
   Coding1.vcxproj -> C:\Users\brenn\Github\coding1\Coding1\x64\Debug\adventure1.exe

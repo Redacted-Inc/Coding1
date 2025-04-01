@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FavGame.cpp">
+    <ClCompile Include="Adventure2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
