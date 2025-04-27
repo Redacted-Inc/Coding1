@@ -128,7 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClassesAssignment.cpp" />
+    <ClCompile Include="filemgmt.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="w14main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filemgmt.h" />
+    <ClInclude Include="Item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
