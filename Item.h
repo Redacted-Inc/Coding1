@@ -13,5 +13,7 @@ private:
 
 public:
 
-	item();//constructor
+	item() {
+
+	}
 };

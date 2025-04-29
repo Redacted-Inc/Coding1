@@ -2,18 +2,6 @@
 #include "Item.h"
 using namespace std;
 
-void readArrayFromFile() {						//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS 
-												//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS
-												//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS
-}
-
-//csv files allow me to send a string of info (ex: hi,my,name,is) to a txt file, which, if the file is converted to a csv file it can be opened in excel with eaech value being
-//different cell (hi	my	  name	  is)
-
-
-
-
-
 int main() {
 	cout << "Hi :3\n";
 
@@ -40,4 +28,6 @@ int main() {
 	}
 
 	writeArrayToFile(faves, nextIndex);
+
+	readFromFile();
 }

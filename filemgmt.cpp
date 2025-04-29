@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include <fstream>	//includes FILE stream		//can use ifstream for reading only and ofstream for writing only
+#include "filemgmt.h"
 using namespace std;
 
 void readFromFile() {
@@ -38,3 +36,22 @@ void writeArrayToFile(string* arr, int index) {
 
 	file.close();
 }
+
+/*void readArrayFromFile(string* arr, int index) {						//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS 
+												//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS
+												//DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS DO THIS
+	ofstream file("faves.txt");
+
+	if (!file.is_open()) {						//won't try to write to a file that isn't open
+		return;
+	}
+
+	for (int i = 0; i < index; i++) {
+		arr[i] = file;
+	}
+
+	file.close();
+}*/
+
+//csv files allow me to send a string of info (ex: hi,my,name,is) to a txt file, which, if the file is converted to a csv file it can be opened in excel with eaech value being
+//different cell (hi	my	  name	  is)

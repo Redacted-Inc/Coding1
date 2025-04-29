@@ -1,3 +1,11 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Coding1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Item.cpp
+C:\Users\brenn\Github\coding1\Coding1\Item.h(12,11): error C3646: 'location': unknown override specifier
+C:\Users\brenn\Github\coding1\Coding1\Item.h(12,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\brenn\Github\coding1\Coding1\Item.cpp(9,7): error C2084: function 'item::item(void)' already has a body
+C:\Users\brenn\Github\coding1\Coding1\Item.h(16,2): message : see previous definition of '{ctor}'
+C:\Users\brenn\Github\coding1\Coding1\Item.cpp(11,11): error C2513: 'location': no variable declared before '='
   w14main.cpp
-  Coding1.vcxproj -> C:\Users\brenn\Github\coding1\Coding1\x64\Debug\adventure1.exe
+C:\Users\brenn\Github\coding1\Coding1\Item.h(12,11): error C3646: 'location': unknown override specifier
+C:\Users\brenn\Github\coding1\Coding1\Item.h(12,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Generating Code...
